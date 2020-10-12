@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Lazaro Groundz</title>
     <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://kit.fontawesome.com/3ac57ee7a7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -47,7 +47,7 @@
     <!-- ..... -->
 
     <!-- header -->
-    <header class="container" id="header">
+    <header class="container" id="header" style="height">
         <div class="row">
             <div class="col-md-12 d-flex justify-content-center">
                 <img src="img/lazaroesports.png">
@@ -56,10 +56,10 @@
     </header>
     <!-- ..... -->
 
+
     <!-- main -->
     <main class="container-fluid bg-light mt-5">
         <div class="container mt-5">
-
             <div class="row">
                 <div class="col-md-12 mt-5">
                     <h5>
@@ -95,29 +95,90 @@
                 </div>
             </div>
 
-            <div class="row mt-3">
-                <div class="col-md-12 mt-4">
-                    <img src="img/dota-2-header.jpg" class="rounded img-fluid" alt="Responsive image">
+            <div class="row mt-2">
+                <div class="col-md-6 mt-4 text-center">
+                    <div class="card border-secondary" style="max-width: 40rem;">
+                        <div class="card-header">Dota 2</div>
+                        <div class="card-body">
+                            <img src="img/dota-2-header.jpg" class="rounded img-fluid" alt="Responsive image">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-12 mt-4">
-                    <img src="img/csgo-header.jpg" class="rounded img-fluid" alt="Responsive image">
+                <div class="col-md-6 mt-4 text-center">
+                    <div class="card border-secondary" style="max-width: 40rem;">
+                        <div class="card-header">CS:GO</div>
+                        <div class="card-body">
+                            <img src="img/csgo-header.jpg" class="rounded img-fluid" alt="Responsive image">
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <div class="row mt-5" id="games">
+                <div class="col-md-12">
+                    <h5>
+                        🔥 Play of the Year 🔥
+                    </h5>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <iframe width="100%" height="615"
+                    src="https://www.youtube.com/embed/6Swr1k809Kg?autoplay=1&mute=1&loop=1">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="row mt-5"></div>
         </div>
     </main>
     <!-- ..... -->
 
     <!-- Footer -->
-    <footer class="page-footer font-small blue">
+    <footer class="page-footer font-small cyan darken-3">
 
+        <!-- Footer Elements -->
+        <div class="container">
+    
+        <!-- Grid row-->
+        <div class="row">
+    
+            <!-- Grid column -->
+            <div class="col-md-12 py-5 d-flex justify-content-center mt-5">
+                <div class="mb-5 flex-center">
+        
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/LazaroEsports" class="fb-ic">
+                        <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UCSvspbkdf3-Bebfnb_6k4Kw" class="text-danger">
+                        <i class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                    </a>
+                    <!-- Steam -->
+                    <a class="text-dark">
+                        <i class="fa fa-steam fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                    </a>
+
+                </div>
+            </div>
+            <!-- Grid column -->
+    
+        </div>
+        <!-- Grid row-->
+    
+        </div>
+        <!-- Footer Elements -->
+    
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="#header"> Lazaro Groundz</a>
+            <a href="#header" class="text-danger"> Lazaro Grounds</a>
         </div>
         <!-- Copyright -->
-  
+    
     </footer>
-  <!-- Footer -->
+    <!-- Footer -->
     
     <!-- background music -->
     <audio id="myAudio" autoplay controls loop hidden>
